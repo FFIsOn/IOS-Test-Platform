@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-sans: var(--font-sans), -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+  --font-mono: var(--font-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+@keyframes iosJiggle {
+  0% { transform: rotate(-1.6deg) translate3d(-0.5px, 0, 0); }
+  50% { transform: rotate(1.6deg) translate3d(0.5px, 0, 0); }
+  100% { transform: rotate(-1.6deg) translate3d(-0.5px, 0, 0); }
+}
+
+.animate-ios-jiggle {
+  animation: iosJiggle 0.26s ease-in-out infinite;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

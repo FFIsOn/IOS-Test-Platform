@@ -1,0 +1,6 @@
+{
+  "name": "CorePhone Pro — 1:1 Browser iOS Hardware Emulator",
+  "description": "Zero-lag browser-based iPhone 16 Pro & iOS 18 emulator featuring real URL browsing via Mobile Safari proxy, 1-for-1 iOS Settings, Dynamic Island, Taptic Engine audio-haptics, physical hardware quirks, and a Three.js Grade-5 Titanium 3D chassis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
